@@ -1,19 +1,55 @@
-body {
+  body {
       margin: 0;
       font-family: Arial, sans-serif;
       background: #000000;
       color: #333;
+
+      cursor: url('Photos on website/cat boba2.png'), default;
+      
     }
+
+    body,
+    a,
+    button,
+    input,
+    textarea,
+    select {
+      cursor: url('Photos on website/cat boba2.png'), auto;
+    }
+
 
     h1 {
       text-align: left;
       font-size: 2.5rem;
-      margin: 3rem 0 1rem 0;
+      margin: 1rem 0 1rem 0;
       opacity: 0;
       animation: fadeIn 1s ease-in-out forwards;
       padding: 0 4rem;
       color:#fff;
       font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    h2 {
+      text-align: left;
+      font-size: 2.5rem;
+      margin: 1rem 0;
+      color: #fff;
+      opacity: 0;
+      animation: fadeIn 1s ease-in-out forwards;
+      animation-delay: 0.2s;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding: 0 1rem;
+    }
+
+    p {
+      text-align: left;
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+      color: #fff;
+      opacity: 0;
+      animation: fadeIn 1s ease-in-out forwards;
+      animation-delay: 0.4s;
+      padding: 0 1rem;
     }
 
     .portfolio {
@@ -210,3 +246,30 @@ body {
             object-fit: cover;
         }
     }
+
+
+.nav-menu {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-menu li a:hover {
+  color: #0077ff;
+}
+
