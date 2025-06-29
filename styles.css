@@ -245,13 +245,25 @@ body {
             height: 300px; /* Make it taller than other images */
             object-fit: cover;
         }
+
+      .nav-menu {
+        position: static;
+        margin: 1rem 0 0 0;
+        text-align: center;
+      }
+      .nav-menu ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+      }
     }
 
 
 .nav-menu {
-  position: absolute;
+  position: fixed;
   top: 30px;
   right: 30px;
+  z-index:1000;
 }
 
 .nav-menu ul {
