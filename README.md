@@ -1,1 +1,3 @@
 [![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
+
+Hello! This project is an HTML/CSS website demonstrating my favourite memories as photos. It's my photography portfolio. I made this project to showcase some of my favourite photos in a website format (hopefully I can also get a few bookings from this as well). This project was made using VS code and by watching many Youtube videos as this is my first fully done website. I hope you enjoyed looking through it as much as I enjoyed making it :)
